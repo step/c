@@ -16,7 +16,7 @@ The primary aim of learning C here isn't to necessarily write production grade c
 | ------------------------------- | ---------------------------- |
 | Statically typed                | Dynamically Typed            |
 | Minimal/no type inference       | Inferred types               |
-| Runs direction on the OS        | Runs on an interpreter       |
+| Runs directly on the OS         | Runs on an interpreter       |
 | Developer managed memory        | Runtime managed memory       |
 | No automatic garbage collection | Automatic garbage collection |
 
