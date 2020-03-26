@@ -28,7 +28,7 @@ Consider
 let a = 2;
 ```
 
-Here, Javascrip infers that a has an integer or a numerical value, automatically allocates the required space and then performs the initialisation.
+Here, Javascript infers that `a` has an integer or a numerical value, automatically allocates the required space and then performs the initialisation.
 
 However in C:
 
@@ -53,7 +53,7 @@ int a = 2;
 a = "abc";
 ```
 
-Importantly, a will not be "abc" here but 3. Further, a compiler can be used to apply strict rules that prevent something like this from being compiled. Once a variable has been declared with a certain type, it remains of that type permanently.
+Importantly, a will not be "abc" here but an unknown random value. Further, a compiler can be used to apply strict rules that prevent something like this from being compiled. Once a variable has been declared with a certain type, it remains of that type permanently.
 
 Even functions have to be declared with a "signature" that specifies the type(s) we are passing in and returning.
 
