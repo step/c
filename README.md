@@ -90,3 +90,17 @@ However, beneath the simplicity of this program, a lot is happening.
 `printf` is a function. But in order to use it, you have to `include` the library in which it is declared. The library happens to be `stdio.h`. While `include` seems similar to `require` in Javascript, it is actually quite different. Unlike `require` which is a function, `#include` is actually an instruction to the compiler and the compiler simply replaces the line `#include <stdio.h>` with the contents of `stdio.h`.
 
 ## Compiling and execution
+
+To simply compile a file named `hello_world.c`
+
+```bash
+gcc hello_world.c
+```
+
+This will generate a file called `a.out`. To execute what you've just compiled, type in `./a.out`
+
+To compile the file into a differently named executable:
+
+```bash
+gcc -o hello_world hello_world.c
+```
